@@ -632,26 +632,28 @@
 
           <div class="form reservation-form bg-black-10">
 
-            <form action="" class="form-left">
+            <form name="reservation" method="POST" data-netlify="true" netlify-honeypot="bot-field" class="form-left">
 
+              <input type="hidden" name="form-name" value="reservation">
+              <p class="hidden">
+                <label>Don't fill this out: <input name="bot-field"></label>
+              </p>
+            
               <h2 class="headline-1 text-center">Online Reservation</h2>
-
+            
               <p class="form-text text-center">
                 Booking request <a href="tel:9884436783" class="link">9884436783</a>
                 or fill out the order form
               </p>
-
+            
               <div class="input-wrapper">
-                <input type="text" name="name" placeholder="Your Name" autocomplete="off" class="input-field">
-
-                <input type="tel" name="phone" placeholder="Phone Number" autocomplete="off" class="input-field">
+                <input type="text" name="name" placeholder="Your Name" required autocomplete="off" class="input-field">
+                <input type="tel" name="phone" placeholder="Phone Number" required autocomplete="off" class="input-field">
               </div>
-
+            
               <div class="input-wrapper">
-
                 <div class="icon-wrapper">
                   <ion-icon name="person-outline" aria-hidden="true"></ion-icon>
-
                   <select name="person" class="input-field">
                     <option value="1-person">1 Person</option>
                     <option value="2-person">2 Person</option>
@@ -661,27 +663,23 @@
                     <option value="6-person">6 Person</option>
                     <option value="7-person">7 Person</option>
                   </select>
-
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
-
+            
                 <div class="icon-wrapper">
                   <ion-icon name="calendar-clear-outline" aria-hidden="true"></ion-icon>
-
-                  <input type="date" name="reservation-date" class="input-field">
-
+                  <input type="date" name="reservation-date" required class="input-field">
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
-
+            
                 <div class="icon-wrapper">
                   <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
-
-                  <select name="person" class="input-field">
+                  <select name="time" class="input-field">
                     <option value="08:00am">08 : 00 am</option>
                     <option value="09:00am">09 : 00 am</option>
-                    <option value="010:00am">10 : 00 am</option>
-                    <option value="011:00am">11 : 00 am</option>
-                    <option value="012:00am">12 : 00 am</option>
+                    <option value="10:00am">10 : 00 am</option>
+                    <option value="11:00am">11 : 00 am</option>
+                    <option value="12:00pm">12 : 00 pm</option>
                     <option value="01:00pm">01 : 00 pm</option>
                     <option value="02:00pm">02 : 00 pm</option>
                     <option value="03:00pm">03 : 00 pm</option>
@@ -693,21 +691,19 @@
                     <option value="09:00pm">09 : 00 pm</option>
                     <option value="10:00pm">10 : 00 pm</option>
                   </select>
-
                   <ion-icon name="chevron-down" aria-hidden="true"></ion-icon>
                 </div>
-
               </div>
-
-              <textarea name="message" placeholder="Message" autocomplete="off" class="input-field"></textarea>
-
+            
+              <textarea name="message" placeholder="Message" class="input-field"></textarea>
+            
               <button type="submit" class="btn btn-secondary">
                 <span class="text text-1">Book A Table</span>
-
                 <span class="text text-2" aria-hidden="true">Book A Table</span>
               </button>
-
+            
             </form>
+            
 
             <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
 
