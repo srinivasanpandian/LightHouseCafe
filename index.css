@@ -646,19 +646,7 @@
     border-block-end: 1px solid transparent;
     transition: var(--transition-1);
   }
-  @media   (max-width: 576px) {
-    .header {
-      /* padding-block: 20px; */
-      padding-top: 30px;
-    }
 
-     .logo-img{
-      width: 100px;
-     }
-  /* .header .container{
-    padding-inline: 20px;
-  } */
-  }
   .header.active {
     padding-block: 20px;
     background-color: var(--eerie-black-4);
@@ -670,16 +658,31 @@
     transition-delay: 250ms;
   }
   .header .container .logo img{
-    width: 130px;
+    width: 120px;
   }
   .header .container {
-    padding-inline: 20px;
+    padding-inline: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 8px;
   }
+  .header .logo-img{
+    width: 120px;
+  }
+  @media screen and (max-width: 576px) {
+    .header {
+    
+      padding-top: 30px;
+    }
+    .header .container{
+      padding-inline: 20px;
+    }
+     .logo-img{
+      width: 100px;
+     }
   
+  }
   .nav-open-btn {
     padding: 12px;
     padding-inline-end: 0;
@@ -1196,7 +1199,9 @@
   }
   
   
-  /*-----------------------------------*\
+
+
+   /*-----------------------------------*\
     #FOOTER
   \*-----------------------------------*/
   
@@ -1210,6 +1215,16 @@
     background-repeat: repeat;
   }
   
+  .footer-img-logo{
+    width: 200px;
+  }
+
+  @media screen and (max-width: 576px){
+    .footer-img-logo{
+      width: 160px;
+    }
+  }
+
   .footer-brand::before,
   .footer-brand::after {
     top: 0;
@@ -1286,20 +1301,21 @@
     color: var(--gold-crayola);
     text-decoration: underline;
   }
-  
   .footer-text{
     color: white;
     margin-top: 1.25rem;
     text-transform: capitalize;
     font-weight: 400;
+  }
 
-}
-.company{
-    color: red
-}
-  
-  
-  
+  .maghil-logo{
+    color: #9dd4d2;
+  }
+  .maghil-logo:hover{
+    color: #e52333;
+    transition: 0.3s ease-in-out;
+  }
+
   /*-----------------------------------*\
     #BACK TO TOP
   \*-----------------------------------*/

@@ -1,0 +1,2967 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- 
+    - primary meta tags
+  -->
+    <title>The Light House</title>
+   
+
+    <!-- 
+    - favicon
+  -->
+    <link rel="shortcut icon" href="img/sdf.png" type="image/svg+xml" />
+
+    <!-- 
+    - google font link
+  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- 
+    - custom css link
+  -->
+    <link rel="stylesheet" href="menu.css" />
+
+    <!-- 
+    - preload images
+  -->
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+
+  <body id="top">
+    <!-- PRELOADER -->
+    <!-- <div class="preload" data-preaload>
+    <div class="circle"></div>
+    <p class="text">Curry Leaves</p>
+  </div> -->
+
+    <!-- HEADER -->
+    <header class="header" data-header>
+      <div class="container">
+        <a href="index.html" class="logo">
+          <img src="img/Menu/logo.png" alt="Grilli - Home" class="logo-img" />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="index.html" class="logo">
+            <img src="img/Menu/logo.png" alt="Grilli - Home" class="logo-img" />
+          </a>
+
+          <ul class="navbar-list">
+            <li class="navbar-item">
+              <a href="index.html" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Home</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="index.html#about" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">About Us</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="menu.html" class="navbar-link hover-underline active">
+                <div class="separator"></div>
+
+                <span class="span">Menus</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="index.html#event" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Events</span>
+              </a>
+            </li>
+
+            <li class="navbar-item">
+              <a href="index.html#reservation" class="navbar-link hover-underline">
+                <div class="separator"></div>
+
+                <span class="span">Contact</span>
+              </a>
+            </li>
+          </ul>
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+              Restaurant St, Delicious City, <br />
+              London 9578, UK
+            </address>
+
+            <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+            <a href="mailto:booking@grilli.com" class="body-4 sidebar-link"
+              >booking@curryleaves.com</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+
+            <a
+              href="tel:+88123123456"
+              class="body-1 contact-number hover-underline"
+            >
+              +88-123-123456
+            </a>
+          </div>
+        </nav>
+
+        <a href="#reservation" class="btn btn-secondary">
+          <span class="text text-1">Find A Table</span>
+
+          <span class="text text-2" aria-hidden="true">Find A Table</span>
+        </a>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+    <!-- !-------- MENU --------->
+
+    <!-- SALAD -->
+    <section class="section menu sec-first" aria-label="menu-label" id="salad">
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Wholesome & Nutritious Bites
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Salad</h2>
+
+        <ul class="grid-list">
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Salad/Chilled-mexican-salad.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >CHILLED MEXICAN SALAD VEG / CHICKEN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 169 / ₹ 199</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Salad/bang-bang-salad.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >BANG BANG SALAD VEG / CHICKEN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 169 / ₹ 199</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- SOUPS -->
+    <section class="section menu sec-con" aria-label="menu-label" id="Soups">
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Deliciously Hearty Soups
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Soups</h2>
+
+        <ul class="grid-list">
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Soups/lemon-coriander.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >LEMON CORRIANDER VEG / CHICKEN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 149 / ₹ 179</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Soups/Shorba Tomato Chicken.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">SHORBA TOMATO / CHICKEN</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 149 / ₹ 179</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Soups/Cream-Mushroom-Chicken.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">CREAM MUSHROOM / CHICKEN</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 169 / ₹ 199</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- STARTERS VEG -->
+    <section
+      class="section menu sec-con"
+      aria-label="menu-label"
+      id="starters-veg"
+    >
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Handpicked Veggie Delight
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Starters Veg</h2>
+
+        <ul class="grid-list">
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/FRENCH FRIES.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >FRENCH FRIES PLAIN / PERIPERI / CHEESE</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 149 / ₹ 189</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/CHILLY.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >CHILLY PANEER / BABYCORN / MUSHROOM</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 229</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/SALT & PEPPER PANEER.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >SALT & PEPPER PANEER / BABYCORN / MUSHROOM</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 229</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/MOZARELLA STICK.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">MOZARELLA STICK</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/POTATO CHEESE BALLS.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span href="#" class="card-title">POTATO CHEESE BALLS</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/STUFFED MUSHROOM.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">STUFFED MUSHROOM</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/VEG SHEEK KEBAB.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">VEG SHEEK KEBAB</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/TANDOORI ALOO.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">TANDOORI ALOO / GOBI</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/MALAI CHEESE BROCCOLI.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">MALAI CHEESE BROCCOLI</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 279</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Veg/PANEER TIKKA CLASSIC.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >PANEER TIKKA CLASSIC / ACHARI / MALAI</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 279</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- STARTERS NON-VEG -->
+    <section
+      class="section menu sec-con"
+      aria-label="menu-label"
+      id="starters-veg"
+    >
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Savor the Meaty Goodness
+ 
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Starters Non-Veg</h2>
+
+        <ul class="grid-list">
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/CHILLY CHICKEN.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >CHILLY CHICKEN / FISH / SQUID / PRAWN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 299 /₹ 329 /₹ 359 /₹ 379</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/SALT & PEPPER CHICKEN.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >SALT & PEPPER CHICKEN / FISH / SQUID / PRAWN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 299 /₹ 329 /₹ 359 /₹ 379</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/DRAGON CHICKEN.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >DRAGON CHICKEN / PRAWN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 299 /₹ 379</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/ORANGE HONEY CHICKEN.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">ORANGE HONEY CHICKEN</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 299</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg//CHICKEN 65 NUGGETS.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">CHICKEN 65 NUGGETS</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 329</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/FISH FINGER.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">FISH FINGER</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 359</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/CHICKEN TIKKA.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">CHICKEN TIKKA CLASSIC / AFGHANI / MALAI </span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 299</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/MURGH KEBAB.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">MURGH KEBAB KALIMIRCHI / CHILLI MILLI / LASUNI</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 329</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/SHEEK KEBAB.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">SHEEK KEBAB CHICKEN / LAMB</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 329 /₹ 399</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/FISH TIKKA.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >FISH TIKKA AMRITSARI / HYDERABADI / HARIYALI</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 329</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Starters Non Veg/TANDOORI PRAWN.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >TANDOORI PRAWN CLASSIC / MALAI / GARLIC</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 379</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- MAINCOURSE -->
+    <section
+      class="section menu sec-con"
+      aria-label="menu-label"
+      id="mainCourse"
+    >
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          A Culinary Journey on Your Plate
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Main Course</h2>
+
+        <ul class="grid-list">
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Main Course/CHICKEN STROGANOFF 1.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">CHICKEN STROGANOFF</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 429</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Main Course/HERB & CHILLY GRILLED FISH 2.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >HERB & CHILLY GRILLED FISH</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 449</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Main Course/FISH & CHIPS 3.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">FISH & CHIPS</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 449</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Main Course/CHICKEN STEAK 4.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">CHICKEN STEAK</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 479</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Main Course/CLASSIC FRIED RICE  5.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >CLASSIC FRIED RICE / NOODLE VEG / EGG / CHICKEN /
+                      PRAWN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 229 /₹ 249 /₹ 269 /₹ 289</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Main Course/SCHEZWAN FRIED RICE 6.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >SCHEZWAN FRIED RICE / NOODLE VEG / EGG / CHICKEN /
+                      PRAWN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249 /₹ 269 /₹ 289 /₹ 299</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Main Course/CHILLY GRAVY 7.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >CHILLY GRAVY VEG / CHICKEN / SEAFOOD</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 269 /₹ 299 /₹ 339</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Main Course/MANCHURIAN GRAVY 8.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >MANCHURIAN GRAVY VEG / CHICKEN / SEAFOOD</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 259 /₹ 289 /₹ 329</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+     <!-- INDIAN CURRIES -->
+    <section
+     class="section menu sec-con"
+     aria-label="menu-label"
+     id="indain curries"
+   >
+     <div class="container">
+       <p class="section-subtitle text-center label-2">
+         Aromatic, Rich & Flavorful
+       </p>
+       <p class="text-center heading-tag">
+         All Curries Served With 1 Bread (Naan / Roti / Parotta)
+       </p>
+       <h2 class="headline-1 section-title text-center">Indain Curries</h2>
+
+       <ul class="grid-list">
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/DAL TADKA 1.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title">DAL TADKA</span>
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 299</p>
+             </div>
+           </div>
+         </li>
+
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/KADAI VEGETABLE 2.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title">KADAI VEGETABLE</span>
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 329</p>
+             </div>
+           </div>
+         </li>
+
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/PANEER BUTTER MASALA 3.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title">PANEER BUTTER MASALA</span>
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 349</p>
+             </div>
+           </div>
+         </li>
+
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/PANEER METHI MAKHANI 4.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title">PANEER METHI MAKHANI</span>
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 349</p>
+             </div>
+           </div>
+         </li>
+
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/BUTTER CHICKEN MASALA 5.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title">BUTTER CHICKEN MASALA</span>
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 379</p>
+             </div>
+           </div>
+         </li>
+
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/KADAI CHICKEN 6.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title">KADAI CHICKEN</span>
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 379</p>
+             </div>
+           </div>
+         </li>
+
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/CHICKEN TIKKA MASALA 7.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title">CHICKEN TIKKA MASALA</span>
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 379</p>
+             </div>
+           </div>
+         </li>
+
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/CHETTINAD CHICKEN 8.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title">CHETTINAD CHICKEN</span>
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 399</p>
+             </div>
+           </div>
+         </li>
+
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/PEPPER GRAVY CHICKEN 9.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title"
+                     >PEPPER GRAVY CHICKEN / PRAWN</span
+                   >
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 399 /₹ 439</p>
+             </div>
+           </div>
+         </li>
+
+         <!--  -->
+         <li>
+           <div class="menu-card hover:card">
+             <figure class="card-banner img-holder">
+               <img
+                 src="img/Menu/Indian Curry/MUTTON KHEEMA MASALA 10.avif"
+                 loading="lazy"
+                 alt="Greek Salad"
+                 class="img-cover"
+               />
+             </figure>
+
+             <div>
+               <div class="title-wrapper">
+                 <h3 class="title-3">
+                   <span class="card-title">MUTTON KHEEMA MASALA</span>
+                 </h3>
+
+                 <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+               </div>
+
+               <p class="card-text label-1">₹ 469</p>
+             </div>
+           </div>
+         </li>
+       </ul>
+
+       <img
+         src="img/shape-5.png"
+         width="921"
+         height="1036"
+         loading="lazy"
+         alt="shape"
+         class="shape shape-2 move-anim"
+       />
+       <img
+         src="img/shape-6.png"
+         width="343"
+         height="345"
+         loading="lazy"
+         alt="shape"
+         class="shape shape-3 move-anim"
+       />
+     </div>
+    </section>
+
+    <!-- RICE AND BREADS -->
+    <section
+      class="section menu sec-con"
+      aria-label="menu-label"
+      id="rice-breads"
+    >
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Soft, Fluffy Breads & Aromatic Rice
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Rice & Breads</h2>
+
+        <ul class="grid-list">
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Rice & Breads/BIRYANI 1.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >BIRYANI VEG / EGG / CHICKEN / MUTTON</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249 /₹ 269 /₹ 299 /₹ 349</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Rice & Breads/PULAO 2.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >PULAO VEG / JEERA / MINT & PEAS / KASHMIRI</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249 /₹ 299</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Rice & Breads/STEAMED RICE 3.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">STEAMED RICE</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 119</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Rice & Breads/PHULKA 4.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">PHULKA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 59</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Rice & Breads/ROTI 5.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >ROTI PLAIN / BUTTER / METHI</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 69 /₹ 79</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Rice & Breads/NAAN 6.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >NAAN PLAIN / BUTTER / GARLIC</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 59 / ₹ 69</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Rice & Breads/LACCHA PARATHA 7.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">LACCHA PARATHA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 89</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Rice & Breads/STUFFED KULCHA 8.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >STUFFED KULCHA ALOO / ONION / PANEER</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 99 / ₹ 109</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Rice & Breads/PAROTTA 9.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >PAROTTA PLAIN / BUN / COIN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 69</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- BURGERS & SANDWICH -->
+    <section
+      class="section menu sec-con"
+      aria-label="menu-label"
+      id="burger-Sandwich"
+    >
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Juicy, Cheesy & Loaded
+        </p>
+
+        <h2 class="headline-1 section-title text-center">BURGERS & SANDWICH</h2>
+
+        <ul class="grid-list">
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Burger & Sandwich/veg-burger.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">VEG BURGER</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 269</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Burger & Sandwich/chicken-burger.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">CHICKEN BURGER</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 329</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Burger & Sandwich/VEG SANDWICH 3.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">VEG SANDWICH</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Burger & Sandwich/club-sandwich.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">CHICKEN CLUB SANDWICH</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 329</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- PASTA -->
+    <section class="section menu sec-con" aria-label="menu-label" id="Pasta">
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          A Perfect Blend of Sauce & Spice
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Pasta</h2>
+
+        <ul class="grid-list">
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Pasta/VEG PASTA 1.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">VEG PASTA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Pasta/CHICKEN PASTA 2.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">CHICKEN PASTA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 299</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Pasta/SEAFOOD PASTA 3.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">SEA FOOD PASTA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 349</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- PIZZA -->
+    <section class="section menu sec-con" aria-label="menu-label" id="pizza">
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Melted Cheese & Perfect Crust
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Pizza</h2>
+
+        <ul class="grid-list">
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Pizza/MARGHERITA 1.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">MARGHERITA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 279</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Pizza/GRILLED VEG  PIZZA 2.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">GRILLED VEG PIZZA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 299</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Pizza/HAWAIN PIZZA 3.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >HAWAIN PIZZA VEG / CHICKEN</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 299 / ₹ 349</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Pizza/GRILLED CHICKEN  PIZZA 4.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">GRILLED CHICKEN PIZZA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 349</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Pizza/CHILLI PANEER  4.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >CHILLI PANEER / CHICKEN PIZZA</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 299 / ₹ 349</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Pizza/SEAFOOD PIZZA 5.jpg"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">SEAFOOD PIZZA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 399</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- DESSERTS -->
+    <section class="section menu sec-con" aria-label="menu-label" id="desserts">
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Sweet Treats to Indulge In
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Desserts</h2>
+
+        <ul class="grid-list">
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Desserts/CHEESE CAKE 1.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">CHEESE CAKE</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 269</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Desserts/APPLE PIE 2.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">APPLE PIE</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 269</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Desserts/PANNACOTTA 3.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">PANNACOTTA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 269</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Desserts/BROWNIE WITH ICECREAM 4.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">BROWNIE WITH ICECREAM</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 269</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- MOCKTAILS & BEVERAGES -->
+    <section
+      class="section menu sec-con"
+      aria-label="menu-label"
+      id="mockails-beverages"
+    >
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Refreshing Sips for Every Mood
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Mocktails Beverages</h2>
+
+        <ul class="grid-list">
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Mocktails/VIRGIN PINACOLADA 1.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">VIRGIN PINACOLADA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 199</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Mocktails/MOJITO 2.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title"
+                      >MOJITO CLASSIC / WATERMELON / BASIL</span
+                    >
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 199</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Mocktails/ISLANDER 3.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">ISLANDER</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 199</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Mocktails/MAA - MIRCHI 4.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">MAA - MIRCHI</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 199</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Mocktails/FRESH JUICE 5.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">FRESH JUICE</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 199</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Mocktails/SOFTDRINKS 6.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">SOFT DRINKS</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 99</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Mocktails/REDBULL 7.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">RED BULL</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 249</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Mocktails/FRESH LIME 8.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">FRESH LIME JUICE / SODA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 99 /₹ 149</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Mocktails/BOTTLED WATER 9.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">BOTTLED WATER</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 20</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- HOT BEVERAGES -->
+    <section
+      class="section menu sec-con"
+      aria-label="menu-label"
+      id="hot-beverages"
+    >
+      <div class="container">
+        <p class="section-subtitle text-center label-2">
+          Warm, Soothing & Invigorating
+        </p>
+
+        <h2 class="headline-1 section-title text-center">Hot Beverages</h2>
+
+        <ul class="grid-list">
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Hot Beverages/TEA 1.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">TEA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 99</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Hot Beverages/GREEN TEA 2.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">GREEN TEA / LEMON TEA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 119</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Hot Beverages/MASALA TEA 3.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">MASALA TEA</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 129</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Hot Beverages/FILTER COFFEE 4.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">FILTER COFFEE</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 149</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Hot Beverages/COFFEE 5.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">COFFEE</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 129</p>
+              </div>
+            </div>
+          </li>
+
+          <!--  -->
+          <li>
+            <div class="menu-card hover:card">
+              <figure class="card-banner img-holder">
+                <img
+                  src="img/Menu/Hot Beverages/HOT CHOCOLATE 6.avif"
+                  loading="lazy"
+                  alt="Greek Salad"
+                  class="img-cover"
+                />
+              </figure>
+
+              <div>
+                <div class="title-wrapper">
+                  <h3 class="title-3">
+                    <span class="card-title">HOT CHOCOLATE</span>
+                  </h3>
+
+                  <!-- <span class="span title-2">₹ 149 / ₹ 179</span> -->
+                </div>
+
+                <p class="card-text label-1">₹ 169</p>
+              </div>
+            </div>
+          </li>
+        </ul>
+
+        <img
+          src="img/shape-5.png"
+          width="921"
+          height="1036"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-2 move-anim"
+        />
+        <img
+          src="img/shape-6.png"
+          width="343"
+          height="345"
+          loading="lazy"
+          alt="shape"
+          class="shape shape-3 move-anim"
+        />
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.7)), url(img/footer3.avif)"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="index.html" class="logo">
+              <img
+                src="img/Menu/logo.png"
+                class="footer-img-logo"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">
+              No-15, 5th Avenue Thiruvalluvar nagar, Urrur kuppam Besant nagar Chennai Tamil nadu</br>
+              India
+            </address>
+
+            <a href="mailto:booking@curryleaves.com" class="body-4 contact-link"
+              >lighthouserestaurantchennai@gmail.com</a
+            >
+
+            <a href="tel:+88123123456" class="body-4 contact-link"
+              >Booking Request : 9884436783</a
+            >
+
+            <p class="body-4">Open : 09:00 am - 01:00 pm</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <!-- <p class="title-1">Get News & Offers</p>
+
+            <p class="label-1">
+              Subscribe us & Get <span class="span">25% Off.</span>
+            </p>
+
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Your email"
+                  autocomplete="off"
+                  class="input-field"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Subscribe</span>
+
+                <span class="text text-2" aria-hidden="true">Subscribe</span>
+              </button> -->
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="index.html" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+
+            <li>
+              <a href="index.html#about" class="label-2 footer-link hover-underline">About Us</a>
+            </li>
+
+            <li>
+              <a href="menu.html" class="label-2 footer-link hover-underline"
+                >Menu</a
+              >
+            </li>
+
+            <li>
+              <a href="index.html#event" class="label-2 footer-link hover-underline">Events</a>
+            </li>
+
+            <li>
+              <a href="index.html#reservation" class="label-2 footer-link hover-underline"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Twitter</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Youtube</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+        <h4 class="footer-text">&copy; 2025 The Light House</span>All Rights Reserved</h4>
+        <h4 class="footer-text">Website design, Social Media marketing and POS Solutions provided by <a href="https://maghil.com/" target="_blank" class="maghil-logo">Maghil</a> </span></h4>
+      </div>
+    </footer>
+
+    <!-- BACK TO TOP -->
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- custom js link -->
+    <script src="menu.js"></script>
+
+    <!-- ionicon link -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
