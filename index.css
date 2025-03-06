@@ -1200,8 +1200,7 @@
   
   
 
-
-   /*-----------------------------------*\
+/*-----------------------------------*\
     #FOOTER
   \*-----------------------------------*/
   
@@ -1215,16 +1214,6 @@
     background-repeat: repeat;
   }
   
-  .footer-img-logo{
-    width: 200px;
-  }
-
-  @media screen and (max-width: 576px){
-    .footer-img-logo{
-      width: 160px;
-    }
-  }
-
   .footer-brand::before,
   .footer-brand::after {
     top: 0;
@@ -1307,7 +1296,6 @@
     text-transform: capitalize;
     font-weight: 400;
   }
-
   .maghil-logo{
     color: #9dd4d2;
   }
@@ -1315,6 +1303,9 @@
     color: #e52333;
     transition: 0.3s ease-in-out;
   }
+   
+
+
 
   /*-----------------------------------*\
     #BACK TO TOP
